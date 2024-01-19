@@ -129,20 +129,6 @@ router.put("/edit", async (req, res, next) => {
   }
 });
 
-// /* POST */
-// router.post('/', async (req, res, next) => {
-//   const user = await User.create({
-//     role: "isrole",
-//     firstName: "isfirstname",
-//     lastName: "islastname",
-//     email: "email@myrest.com",
-//     phoneNumber: "09099090",
-//     password: "ispassword"
-//   });
-//   res.json({ user });
-
-// });
-
 /* Post User */
 router.post("/", isAdmin, async (req, res, next) => {
   try {
@@ -166,17 +152,6 @@ router.post("/", isAdmin, async (req, res, next) => {
   }
 });
 
-// /* PUT */
-// router.put('/', async function (req, res, next) {
-//   const id = 1;
-//   const user = await User.findByPk(id);
-
-//   user.role = 'newrole'
-//   await user.save();
-
-//   res.json({user });
-//   // res.json({message: "hello, update"});
-// });
 
 /* PUT */
 router.put("/:userId", async (req, res, next) => {

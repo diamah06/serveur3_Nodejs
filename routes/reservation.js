@@ -13,20 +13,6 @@ router.get("/", isAdmin, async (req, res, next) => {
   }
 });
 
-/* POST */
-//router.post('/', async (req, res, next) => {
-//  const reservation = await Reservation.create({
-//    date: Date.now(),
-//    name: 'mahdia',
-//    note: 'isnote',
-//    status: 1,
-//    userId: 1,
-//    spotId: 1,
-//    roomId: 1
-//  });
-//  res.json({reservation });
-//});
-
 /* POST Create Reservation */
 router.post("/", async (req, res, next) => {
   try {
