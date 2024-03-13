@@ -1,18 +1,13 @@
 const express = require("express");
 const router = express.Router();
-const { isAdmin } = require("./isAdmin.js");
+const  isAdmin  = require('../controllers/isAdminController');
 
-const { Room } = require("../db.js");
+const { Room } = require("../models");
+const roomController = require('../controllers/roomController');
+console.log(roomController.getRooms)
 
 /* GET */
-router.get("/", isAdmin, async (req, res, next) => {
-  try {
-    const rooms = await Room.findAll();
-    res.json({ rooms });
-  } catch (error) {
-    next(error);
-  }
-});
+router.get("/", roomController.getRooms);
 
 /* Post Room */
 router.post("/", async (req, res, next) => {

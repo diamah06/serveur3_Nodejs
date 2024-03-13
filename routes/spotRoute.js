@@ -1,8 +1,9 @@
 const express = require("express");
 const router = express.Router();
 
-const { Spot } = require("../db.js");
-const { isAdmin } = require("./isAdmin.js");
+const { Spot } = require("../models");
+const { isAdmin } = require('../controllers/isAdminController');
+const spotController = require('../controllers/spotController');
 
 /* GET */
 router.get("/", isAdmin, async (req, res, next) => {
