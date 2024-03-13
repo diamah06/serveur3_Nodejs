@@ -7,50 +7,15 @@ const roomController = require('../controllers/roomController');
 console.log(roomController.getRooms)
 
 /* GET */
-router.get("/", roomController.getRooms);
+router.get("/",isAdmin, roomController.getRooms);
 
 /* Post Room */
-router.post("/", async (req, res, next) => {
-  const { name } = req.body;
-
-  if (!name) {
-    return res.status(400).json({ error: "Room name is required." });
-  }
-
-  const room = await Room.create({ name });
-  res.json({ room });
-});
+router.post("/", roomController.createRoom);
 
 /* Put Room. */
-router.put("/:roomId", async (req, res, next) => {
-  const { roomId } = req.params;
-  const { name } = req.body;
-
-  if (!name) {
-    return res.status(400).json({ error: "Room name is required." });
-  }
-
-  const room = await Room.findByPk(roomId);
-
-  if (!room) {
-    return res.status(404).json({ error: "Room not found." });
-  }
-
-  room.name = name;
-  await room.save();
-  res.json({ room });
-});
+router.put("/:roomId", roomController.updateRoom);
 
 /* Delete Room */
-router.delete("/:roomId", async (req, res, next) => {
-  const { roomId } = req.params;
-  const room = await Room.findByPk(roomId);
+router.delete("/:roomId", roomController.deleteRoom);
 
-  if (!room) {
-    return res.status(404).json({ error: "Room not found." });
-  }
-
-  await room.destroy();
-  res.json({ message: "Room deleted." });
-});
 module.exports = router;

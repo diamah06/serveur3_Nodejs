@@ -1,6 +1,7 @@
 const { User } = require('../models');
 const bcrypt = require('bcrypt');
 
+
 // Middleware to check if user is admin
 const isAdmin = (req, res, next) => {
   console.log("User:", req.user);

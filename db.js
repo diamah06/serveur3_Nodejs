@@ -17,10 +17,10 @@ const Room = require("./models/room")(sequelize, DataTypes);
 const Spot = require("./models/spot")(sequelize, DataTypes);
 const User = require("./models/user")(sequelize, DataTypes);
 
-const reservationsRouter = require('./reservationsRoute');
-const usersRouter = require('./usersRoute');
-const spotsRouter = require('./spotsRoute');
-const roomsRouter = require('./roomsRoute');
+const reservationsRouter = require('./routes/reservationRoute');
+const usersRouter = require('./routes/userRoute');
+const spotsRouter = require('./routes/spotRoute');
+const roomsRouter = require('./routes/roomRoute');
 
 
 module.exports = {
