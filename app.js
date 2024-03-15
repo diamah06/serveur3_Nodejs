@@ -8,12 +8,20 @@ const jwt = require("jsonwebtoken");
 const morganMiddleware = require("./middlewares/morgan.middleware");
 const logger = require("./utils/logger"); //logger de la fonction utils
 
+const cors = require('cors')
+
+corsOptions = {
+  origin: '*',
+  optionsSuccessStatus: 200
+}
+
 // middlewar
 app.use(morganMiddleware);
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
+app.use(cors(corsOptions))
 
 logger.http('Debut session') // logger de morgan
 

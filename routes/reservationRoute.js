@@ -2,14 +2,15 @@ const express = require('express');
 const router = express.Router();
 const {Reservation} = require('../models');
 const reservationController = require('../controllers/reservationController');
+const  isAdmin  = require('../controllers/isAdminController');
 
 /* /reservations */ 
-router.get('/reservations', reservationController.getReservations);
+router.get('/',isAdmin, reservationController.getReservations);
 
-router.post('/reservations', reservationController.createReservation);
+router.post('/', reservationController.createReservation);
 
-router.put('/reservations', reservationController.updateReservation);
+router.put('/:id', reservationController.updateReservation);
 
-router.delete('/reservations', reservationController.deleteReservation);
+router.delete('/reservationId', reservationController.deleteReservation);
 
 module.exports = router;
