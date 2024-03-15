@@ -2,11 +2,12 @@ const express = require("express");
 const router = express.Router();
 
 const { Spot } = require("../models");
+
 const  isAdmin  = require('../controllers/isAdminController');
 const spotController = require('../controllers/spotController');
 
 /* GET */
-router.get("/", isAdmin,spotController.getSpots);
+router.get("/",spotController.getSpots);
 
 /* POST Spot */
 router.post("/", spotController.createSpot);

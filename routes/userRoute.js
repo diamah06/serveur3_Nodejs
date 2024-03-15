@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+//const  isAdmin  = require('../controllers/isAdminController');
 const  isAdmin  = require('../controllers/isAdminController');
 
 const { User } = require("../models");
@@ -7,7 +8,7 @@ const userController = require('../controllers/userController');
 
 
 /* GET all utilisateurs (accessible uniquement aux admin) */
-router.get("/admin", isAdmin, async (req, res, next) => {
+router.get("/admin", async (req, res, next) => {
   try {
     const users = await User.findAll();
     res.json({ users });

@@ -7,7 +7,7 @@ const roomController = require('../controllers/roomController');
 console.log(roomController.getRooms)
 
 /* GET */
-router.get("/",isAdmin, roomController.getRooms);
+router.get("/", roomController.getRooms);
 
 /* Post Room */
 router.post("/", roomController.createRoom);

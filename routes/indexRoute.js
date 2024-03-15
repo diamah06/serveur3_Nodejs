@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+const isAdminController =  require('../controllers/isAdminController');
 
 // Import des routes
 const reservationRouter = require("./reservationRoute");

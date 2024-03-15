@@ -1,18 +1,29 @@
 const express = require("express");
 const path = require("path");
 const cookieParser = require("cookie-parser");
-const logger = require("morgan");
 const indexRouter = require('./routes/indexRoute');
 const app = express();
 const authRouter = require('./routes/authRoute');
 const jwt = require("jsonwebtoken");
+const morganMiddleware = require("./middlewares/morgan.middleware");
+const logger = require("./utils/logger"); //logger de la fonction utils
+
+const cors = require('cors')
+
+corsOptions = {
+  origin: '*',
+  optionsSuccessStatus: 200
+}
 
 // middlewar
-app.use(logger("dev"));
+app.use(morganMiddleware);
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
+app.use(cors(corsOptions))
+
+logger.http('Debut session') // logger de morgan
 
 // verification du tocken :
 const verifyJWT = (req, res, next) => {
