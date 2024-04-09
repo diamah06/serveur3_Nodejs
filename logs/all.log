@@ -451,3 +451,51 @@
 [35m[39m
 2024-04-08 23:55:15:5515 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 1.991 ms[39m
 [35m[39m
+2024-04-09 11:11:19:1119 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 11:11:23:1123 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 11:11:45:1145 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 11:12:43:1243 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 11:13:02:132 [[35mhttp[39m] [35m::1 POST /auth/signin 400 43 - 17.176 ms[39m
+[35m[39m
+2024-04-09 11:13:13:1313 [[35mhttp[39m] [35m::1 POST /auth/signup 422 195 - 9.240 ms[39m
+[35m[39m
+2024-04-09 12:39:13:3913 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 2.890 ms[39m
+[35m[39m
+2024-04-09 12:39:13:3913 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 43.553 ms[39m
+[35m[39m
+2024-04-09 12:39:13:3913 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.835 ms[39m
+[35m[39m
+2024-04-09 12:39:13:3913 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.864 ms[39m
+[35m[39m
+2024-04-09 12:54:02:542 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 2.542 ms[39m
+[35m[39m
+2024-04-09 12:54:02:542 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 24.785 ms[39m
+[35m[39m
+2024-04-09 12:54:02:542 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.199 ms[39m
+[35m[39m
+2024-04-09 12:54:02:542 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 1.601 ms[39m
+[35m[39m
+2024-04-09 15:13:07:137 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 17:03:07:37 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 17:03:10:310 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 17:03:12:312 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 17:03:21:321 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 17:03:46:346 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 17:03:47:347 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 17:04:14:414 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 17:04:39:439 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 17:05:14:514 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 17:05:16:516 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 17:05:57:557 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 17:07:41:741 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 17:07:59:759 [[35mhttp[39m] [35m::1 POST /auth/signup 400 1121 - 18.085 ms[39m
+[35m[39m
+2024-04-09 17:08:14:814 [[35mhttp[39m] [35m::1 POST /auth/signup 422 195 - 15.566 ms[39m
+[35m[39m
+2024-04-09 17:10:38:1038 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 17:10:43:1043 [[35mhttp[39m] [35m::1 POST /auth/signup 422 195 - 16.387 ms[39m
+[35m[39m
+2024-04-09 17:12:07:127 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 17:12:37:1237 [[35mhttp[39m] [35mDebut session[39m
+2024-04-09 17:12:41:1241 [[35mhttp[39m] [35m::1 POST /auth/signup 422 195 - 22.157 ms[39m
+[35m[39m
