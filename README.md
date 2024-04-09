@@ -68,4 +68,4 @@ Postman:
 
 Schema Base de données :
 
-<img width="617" alt="Capture d’écran 2023-10-26 à 18 02 27" src="https://github.com/diamah06/seveur2-Nodejs/assets/114236929/057f2388-e7f8-4d1c-9ed8-4333cf6cd90d">
+<img width="991" alt="Capture d’écran 2024-04-09 à 15 26 14" src="https://github.com/diamah06/serveur3_Nodejs/assets/114236929/3d0db5cf-b709-40d4-b57f-bcf7ee294a7e">
