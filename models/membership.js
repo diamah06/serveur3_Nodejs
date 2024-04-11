@@ -1,32 +1,43 @@
-'use strict';
-const {
-    Model
-} = require('sequelize');
+"use strict";
+const { Model } = require("sequelize");
+
 module.exports = (sequelize, DataTypes) => {
     class Membership extends Model {
         static associate(models) {
-            Membership.belongsTo(models.User, { foreignKey: 'userId', unique: true });
+            Membership.belongsTo(models.User, {
+                foreignKey: "id_user",
+                unique: true,
+            });
         }
     }
-    Membership.init({
-        name: DataTypes.STRING,
-        number_of_reservations: DataTypes.INTEGER,
-        expiration_date: DataTypes.DATE,
-        userId: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-            references: {
-                model: sequelize.models.User,
-                key: 'id',
+
+    Membership.init(
+        {
+            id: {
+                allowNull: false,
+                autoIncrement: true,
+                primaryKey: true,
+                type: DataTypes.INTEGER,
+            },
+            name: DataTypes.STRING,
+            number_of_reservations: DataTypes.INTEGER,
+            expiration_date: DataTypes.DATE,
+            id_user: {
+                type: DataTypes.INTEGER,
+                allowNull: false,
+                references: {
+                    model: {
+                        tableName: "Users",
+                    },
+                    key: "id",
+                },
             },
         },
-    }, {
-        sequelize,
-        modelName: 'Membership',
-    });
+        {
+            sequelize,
+            modelName: "Membership",
+        },
+    );
 
     return Membership;
 };
-
-
-// membership.belongsTo(db.user, { foreignKey: 'userId', unique: true});

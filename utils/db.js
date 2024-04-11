@@ -2,12 +2,7 @@ const { Sequelize } = require('sequelize');
 const env = process.env.NODE_ENV || 'development';
 const config = require('../config/config.json')[env];
 
-const userSeed = require('../seeds/user.seed');
-const spotSeed = require("../seeds/spot.seed");
-const roomSeed = require("../seeds/room.seed");
-const reservationSeed = require("../seeds/reservation.seed");
-const membershipSeed = require("../seeds/membership.seed");
-// configurer la base 
+// Configurer la base de données
 const sequelize = new Sequelize(config.database, config.username,
   config.password, {
     host: config.host,
@@ -15,30 +10,26 @@ const sequelize = new Sequelize(config.database, config.username,
     logging: false,
   });
 
-  const user = require("../models/user")(sequelize, Sequelize);
-const membership = require("../models/membership")(sequelize,
-Sequelize);
-const room = require("../models/room")(sequelize, Sequelize);
-const spot = require("../models/spot")(sequelize, Sequelize);
-const reservation = require("../models/reservation")
-(sequelize,Sequelize);
+// Importer le modèle User
+const User = require("../models/user")(sequelize, Sequelize);
 
-reservation.belongsToMany(spot, { through: 'ReservationSpots' });
-spot.belongsToMany(reservation, { through: 'ReservationSpots' });
-// methode sync qui permet de mettre en place une BDD
-sequelize.sync({force: true}).then(
-  //force : ce parametre permet de supprimer les tables et les recréer 
-  async () => {
-      await userSeed();
-      await roomSeed();
-      await reservationSeed();
-      await spotSeed();
-      await membershipSeed();
-      // await reservationSpotSeed();
-      console.log('Database and tables created!');
-  }
-).catch(e => {
-  console.error('Database and tables creation failed!', e);
-});
+// Importer les autres modèles (membership, room, spot, reservation)
+const Membership = require("../models/membership")(sequelize, Sequelize);
+const Room = require("../models/room")(sequelize, Sequelize);
+const Spot = require("../models/spot")(sequelize, Sequelize);
+const Reservation = require("../models/reservation")(sequelize, Sequelize);
 
-module.exports = { sequelize, Sequelize };
+// Définir les associations entre les modèles
+Reservation.belongsToMany(Spot, { through: 'ReservationSpots' });
+Spot.belongsToMany(Reservation, { through: 'ReservationSpots' });
+
+// Exporter sequelize, Sequelize et les modèles
+module.exports = {
+  sequelize,
+  Sequelize,
+  Membership,
+  Reservation,
+  Room,
+  Spot,
+  User,
+};
