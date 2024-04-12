@@ -9,13 +9,13 @@ exports.signup = async (req, res) => {
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(req.body.password, salt);
 
-    const { firstName, lastName, email, phoneNumber } = req.body;
+    const { first_name, last_name, email, phoneNumber } = req.body; // Utiliser first_name et last_name
 
     const user = {
       password: hashedPassword,
-      firstName,
+      first_name, // Utiliser first_name
       role: "client", // Le rôle est défini par défaut comme "client"
-      lastName,
+      last_name, // Utiliser last_name
       email,
       phoneNumber,
     };
@@ -34,6 +34,7 @@ exports.signup = async (req, res) => {
     res.status(500).json({ error: "Internal server error" });
   }
 };
+
 
 // Fonction pour connecter un utilisateur
 exports.signin = async (req, res) => {
@@ -60,7 +61,7 @@ exports.signin = async (req, res) => {
       role: user.role,
       // On peut ajouter d'autres propriétés ici
     };
-    const token = jwt.sign(payload, SECRET_KEY, { expiresIn: "1h" });
+    const token = jwt.sign(payload, SECRET_KEY, { expiresIn: "24h" });
     res.json({ message: token });
   } catch (error) {
     console.error(error);
