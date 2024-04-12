@@ -5,12 +5,12 @@ const authController = require('../controllers/authController');
 
 // Sign-up (Inscription)
 router.post('/signup', signUpValidationRules(), async (req, res) => {
-    authController.signUp(req, res);
+    authController.signup(req, res);
 });
 
 // Sign-in (Connexion)
 router.post('/signin', signInValidationRules(), async (req, res) => {
-    authController.signIn(req, res);
+    authController.signin(req, res);
 });
 
 module.exports = router;

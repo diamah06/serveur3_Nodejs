@@ -1,58 +1,112 @@
+const { User } = require("../utils/db");
+const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
-const { User } = require('../models');
-const jwt = require('jsonwebtoken');
+const SECRET_KEY = "secretkey23456";
 
-const SECRET_KEY = 'secretkey23456';
+// Fonction pour créer un utilisateur
+exports.signup = async (req, res) => {
+  try {
+    const salt = await bcrypt.genSalt(10);
+    const hashedPassword = await bcrypt.hash(req.body.password, salt);
 
-class AuthController {
-    async signUp(req, res) {
-        try {
-            const salt = await bcrypt.genSalt(10);
-            const hashedPassword = await bcrypt.hash(req.body.password, salt);
-            const user = {
-                email: req.body.email,
-                password: hashedPassword,
-                firstName: req.body.firstName,
-                lastName: req.body.lastName,
-                role: "user" // By default, the role is "user. Admin can change it later
-            };
+    const { firstName, lastName, email, phoneNumber } = req.body;
 
-            await User.create(user);
+    const user = {
+      password: hashedPassword,
+      firstName,
+      role: "client", // Le rôle est défini par défaut comme "client"
+      lastName,
+      email,
+      phoneNumber,
+    };
 
-            res.status(201).json('Utilisateur créé');
-        } catch (error) {
-            console.error(error);
-            res.status(500).send("Erreur de serveur");
-        }
+    // Vérifiez si l'adresse e-mail est déjà utilisée
+    const existingUser = await User.findOne({ where: { email: user.email } });
+    if (existingUser) {
+      // L'adresse e-mail existe déjà
+      return res.status(400).json({ message: "Email already in use" });
     }
 
-    async signIn(req, res) {
-        try {
-            const user = await User.findOne({ email: req.body.email });
-            if (!user) {
-                return res.status(400).send("Nom d'utilisateur ou mot de passe incorrect");
-            }
+    await User.create(user);
+    res.status(201).json({ message: "User created", user });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: "Internal server error" });
+  }
+};
 
-            const validPassword = await bcrypt.compare(req.body.password, user.password);
-            if (!validPassword) {
-                return res.status(400).send("Nom d'utilisateur ou mot de passe incorrect");
-            }
+// Fonction pour connecter un utilisateur
+exports.signin = async (req, res) => {
+  try {
+    const user = await User.findOne({ where: { email: req.body.email } });
 
-            // Generate JWT token
-            const payload = {
-                id: user._id, // You may include additional data here
-                username: user.username,
-                // Add more properties if needed
-            };
-            const token = jwt.sign(payload, SECRET_KEY, { expiresIn: '1h' });
+    if (!user)
+      return res
+        .status(400)
+        .json({ message: "Incorrect username or password" });
 
-            // Send token as response
-            res.json({ auth: true, token });
-        } catch (error) {
-            console.error(error);
-            res.status(500).send("Erreur de serveur");
-        }
+    const validPassword = await bcrypt.compare(
+      req.body.password,
+      user.password
+    );
+    if (!validPassword)
+      return res
+        .status(400)
+        .json({ message: "Incorrect username or password" });
+
+    const payload = {
+      email: req.body.email,
+      id: user.id,
+      role: user.role,
+      // On peut ajouter d'autres propriétés ici
+    };
+    const token = jwt.sign(payload, SECRET_KEY, { expiresIn: "1h" });
+    res.json({ message: token });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: "Internal server error" });
+  }
+};
+
+// Fonction pour réinitialiser le mot de passe
+exports.resetPassword = async (req, res) => {
+  try {
+    const { email, newPassword } = req.body;
+
+    // Validation de base
+    if (!email || !newPassword) {
+      return res
+        .status(400)
+        .json({ error: "Email and new password are required" });
     }
-}
 
-module.exports = new AuthController();
+    // Recherche de l'utilisateur par email
+    const user = await User.findOne({ where: { email: email } });
+
+    if (!user) {
+      return res.status(404).json({ error: "User not found" });
+    }
+
+    // Hachage du nouveau mot de passe
+    const salt = await bcrypt.genSalt(10);
+    console.log("Salt generated successfully");
+    const hashedPassword = await bcrypt.hash(newPassword, salt);
+    console.log("Password hashed successfully");
+
+    // Mise à jour du mot de passe dans la base de données
+    console.log("Before saving:", user.password);
+    user.password = hashedPassword;
+    await user.save();
+    console.log("After saving:", user.password);
+
+    // Répondre avec un message de succès
+    res.json({ message: "Password reset successfully" });
+  } catch (error) {
+    // Gérer les erreurs qui pourraient survenir pendant le processus de réinitialisation
+    console.error(error);
+    res
+      .status(500)
+      .json({ error: "Error resetting password. Please try again later." });
+  }
+};
+

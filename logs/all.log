@@ -729,3 +729,67 @@
 [35m[39m
 2024-04-11 18:03:45:345 [[35mhttp[39m] [35m::1 POST /auth/signin 400 43 - 14.561 ms[39m
 [35m[39m
+2024-04-12 09:32:43:3243 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 09:32:50:3250 [[35mhttp[39m] [35m::1 POST /auth/signup 201 20 - 159.856 ms[39m
+[35m[39m
+2024-04-12 09:32:55:3255 [[35mhttp[39m] [35m::1 POST /auth/signin 400 43 - 22.024 ms[39m
+[35m[39m
+2024-04-12 09:55:57:5557 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 09:55:59:5559 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 09:56:01:561 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 09:56:02:562 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 09:56:08:568 [[35mhttp[39m] [35m::1 POST /auth/signup 500 17 - 134.865 ms[39m
+[35m[39m
+2024-04-12 09:56:19:5619 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 09:56:20:5620 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 09:56:23:5623 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 09:56:28:5628 [[35mhttp[39m] [35m::1 POST /auth/signup 201 20 - 154.157 ms[39m
+[35m[39m
+2024-04-12 09:58:21:5821 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 09:58:37:5837 [[35mhttp[39m] [35m::1 POST /auth/signup 500 17 - 148.581 ms[39m
+[35m[39m
+2024-04-12 09:59:14:5914 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 10:00:52:052 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 10:01:03:13 [[35mhttp[39m] [35m::1 POST /auth/signup 201 20 - 163.707 ms[39m
+[35m[39m
+2024-04-12 10:01:27:127 [[35mhttp[39m] [35m::1 POST /auth/signin 400 43 - 37.846 ms[39m
+[35m[39m
+2024-04-12 10:02:47:247 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 10:02:55:255 [[35mhttp[39m] [35m::1 POST /auth/signup 400 44 - 70.645 ms[39m
+[35m[39m
+2024-04-12 10:05:12:512 [[35mhttp[39m] [35m::1 POST /auth/signup 201 20 - 133.868 ms[39m
+[35m[39m
+2024-04-12 10:05:35:535 [[35mhttp[39m] [35m::1 POST /auth/signin 400 43 - 36.826 ms[39m
+[35m[39m
+2024-04-12 10:06:09:69 [[35mhttp[39m] [35m::1 POST /auth/signin 400 43 - 18.759 ms[39m
+[35m[39m
+2024-04-12 10:13:23:1323 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 10:13:26:1326 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 10:14:27:1427 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 10:14:33:1433 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 10:14:34:1434 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 10:14:36:1436 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 10:14:39:1439 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 10:22:27:2227 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 10:23:45:2345 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 10:27:20:2720 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 10:27:28:2728 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 10:27:29:2729 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 10:27:42:2742 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 10:27:48:2748 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 10:27:57:2757 [[35mhttp[39m] [35m::1 POST /auth/signup 400 34 - 143.040 ms[39m
+[35m[39m
+2024-04-12 10:28:20:2820 [[35mhttp[39m] [35m::1 POST /auth/signup 201 212 - 128.329 ms[39m
+[35m[39m
+2024-04-12 10:28:40:2840 [[35mhttp[39m] [35m::1 POST /auth/signin 200 211 - 127.214 ms[39m
+[35m[39m
+2024-04-12 10:29:46:2946 [[35mhttp[39m] [35m::1 POST /auth/reset-password 404 159 - 8.828 ms[39m
+[35m[39m
+2024-04-12 10:30:30:3030 [[35mhttp[39m] [35m::1 POST /auth/reset-password 404 159 - 2.061 ms[39m
+[35m[39m
+2024-04-12 10:30:39:3039 [[35mhttp[39m] [35m::1 POST /auth/reset-password 404 159 - 0.936 ms[39m
+[35m[39m
+2024-04-12 10:31:29:3129 [[35mhttp[39m] [35m::1 POST /api/reservation? 201 202 - 94.279 ms[39m
+[35m[39m
+2024-04-12 10:32:57:3257 [[35mhttp[39m] [35m::1 POST /auth/signin 200 211 - 113.159 ms[39m
+[35m[39m
