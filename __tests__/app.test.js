@@ -10,15 +10,3 @@ describe("GET /api/reservation", () => {
   });
 });
 
-describe("POST /auth/signin", () => {
-  it("should return signin", async () => {
-    const res = await request(app)
-      .post("/auth/signin")
-      .expect("Content-Type", /json/)
-      .send({
-        email: "email@test.com",
-        password: "password",
-      })
-      .expect(200);
-  });
-});

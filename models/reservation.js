@@ -5,8 +5,12 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       // Association avec la table Users pour représenter l'utilisateur associé à la réservation
        Reservation.belongsTo(models.User, { foreignKey: 'userId' });
+       //relation many-to-many: entre les modèles Reservation et Spot via la table de jontion'ReservationSpots'
+       //une réservation peut être associée à plusieurs emplacements, 
+       //et un emplacement peut être associé à plusieurs réservations, 
        // Association avec la table Spots via la table de liaison ReservationSpots
-        Reservation.belongsToMany(models.Spot, { through: 'ReservationSpots', foreignKey: 'ReservationId'});
+        //Reservation.belongsToMany(models.Spot, { through: 'ReservationSpots', foreignKey: 'ReservationId'});
+
         // Association avec la table Rooms via la clé étrangère roomId
       Reservation.belongsTo(models.Room, { foreignKey: 'roomId' });
     }

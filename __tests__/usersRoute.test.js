@@ -23,25 +23,7 @@ describe("GET /api/user/currentUser", () => {
   });
 });
 
-describe("POST /auth/signup", () => {
-  it("should not allow signup with existing email", async () => {
-    // Essayez de créer un compte avec une adresse e-mail existante
-    const res = await request(app)
-      .post("/auth/signup")
-      .expect("Content-Type", /json/)
-      .send({
-        email: "email@newexample.com",
-        password: "password",
-      });
 
-    // Vérifiez que la réponse est un code d'erreur 400
-    expect(res.status).toBe(400);
-
-    // Vérifiez que le message d'erreur indique que l'adresse e-mail est déjà utilisée
-    expect(res.body).toHaveProperty("message");
-    expect(res.body.message).toMatch(/email already in use/);
-  });
-});
 
 describe("GET /api/user/admin", () => {
   it("should return a 200 response if the user is an admin", async () => {

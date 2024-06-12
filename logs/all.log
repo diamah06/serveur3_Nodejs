@@ -890,3 +890,1015 @@
 [35m[39m
 2024-04-12 11:12:47:1247 [[35mhttp[39m] [35m::1 POST /api/reservations.items 404 162 - 25.826 ms[39m
 [35m[39m
+2024-04-12 11:26:13:2613 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 11:26:20:2620 [[35mhttp[39m] [35m::1 POST /auth/signup 400 34 - 151.873 ms[39m
+[35m[39m
+2024-04-12 11:26:23:2623 [[35mhttp[39m] [35m::1 POST /auth/signin 200 209 - 101.345 ms[39m
+[35m[39m
+2024-04-12 11:26:48:2648 [[35mhttp[39m] [35m::1 GET /api/reservation 404 154 - 13.362 ms[39m
+[35m[39m
+2024-04-12 11:27:20:2720 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.702 ms[39m
+[35m[39m
+2024-04-12 11:27:20:2720 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 5.959 ms[39m
+[35m[39m
+2024-04-12 11:27:20:2720 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.332 ms[39m
+[35m[39m
+2024-04-12 11:27:20:2720 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 19.296 ms[39m
+[35m[39m
+2024-04-12 11:52:03:523 [[35mhttp[39m] [35m::1 POST /auth/signup 400 34 - 132.589 ms[39m
+[35m[39m
+2024-04-12 11:52:06:526 [[35mhttp[39m] [35m::1 POST /auth/signin 200 209 - 97.880 ms[39m
+[35m[39m
+2024-04-12 11:53:01:531 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.157 ms[39m
+[35m[39m
+2024-04-12 11:53:01:531 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.698 ms[39m
+[35m[39m
+2024-04-12 11:53:01:531 [[35mhttp[39m] [35m::1 GET /api/reservation 404 154 - 8.047 ms[39m
+[35m[39m
+2024-04-12 11:53:01:531 [[35mhttp[39m] [35m::1 GET /api/reservation 404 154 - 1.956 ms[39m
+[35m[39m
+2024-04-12 12:14:23:1423 [[35mhttp[39m] [35mDebut session[39m
+2024-04-12 12:15:44:1544 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 2.109 ms[39m
+[35m[39m
+2024-04-12 12:15:44:1544 [[35mhttp[39m] [35m::1 GET /api/reservation 404 154 - 28.316 ms[39m
+[35m[39m
+2024-04-12 12:15:44:1544 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.259 ms[39m
+[35m[39m
+2024-04-12 12:15:44:1544 [[35mhttp[39m] [35m::1 GET /api/reservation 404 154 - 1.615 ms[39m
+[35m[39m
+2024-04-12 12:35:00:350 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.355 ms[39m
+[35m[39m
+2024-04-12 12:35:00:350 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.363 ms[39m
+[35m[39m
+2024-04-12 12:35:00:350 [[35mhttp[39m] [35m::1 GET /api/reservation 404 154 - 41.723 ms[39m
+[35m[39m
+2024-04-12 12:35:00:350 [[35mhttp[39m] [35m::1 GET /api/reservation 404 154 - 2.042 ms[39m
+[35m[39m
+2024-04-12 17:08:07:87 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.343 ms[39m
+[35m[39m
+2024-04-12 17:08:07:87 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.195 ms[39m
+[35m[39m
+2024-04-12 17:08:07:87 [[35mhttp[39m] [35m::1 GET /api/reservation 404 154 - 13.355 ms[39m
+[35m[39m
+2024-04-12 17:08:07:87 [[35mhttp[39m] [35m::1 GET /api/reservation 404 154 - 1.109 ms[39m
+[35m[39m
+2024-04-15 10:57:23:5723 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 4.586 ms[39m
+[35m[39m
+2024-04-15 10:57:23:5723 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.489 ms[39m
+[35m[39m
+2024-04-15 10:57:23:5723 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 81.861 ms[39m
+[35m[39m
+2024-04-15 10:57:23:5723 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 3.965 ms[39m
+[35m[39m
+2024-04-15 11:31:20:3120 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 14.479 ms[39m
+[35m[39m
+2024-04-15 11:31:20:3120 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.832 ms[39m
+[35m[39m
+2024-04-15 11:31:20:3120 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 28.502 ms[39m
+[35m[39m
+2024-04-15 11:31:20:3120 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 6.591 ms[39m
+[35m[39m
+2024-04-15 11:36:02:362 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.926 ms[39m
+[35m[39m
+2024-04-15 11:36:02:362 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 31.608 ms[39m
+[35m[39m
+2024-04-15 11:36:02:362 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.397 ms[39m
+[35m[39m
+2024-04-15 11:36:02:362 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 3.247 ms[39m
+[35m[39m
+2024-04-15 12:28:46:2846 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 6.024 ms[39m
+[35m[39m
+2024-04-15 12:28:46:2846 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.072 ms[39m
+[35m[39m
+2024-04-15 12:28:46:2846 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 38.616 ms[39m
+[35m[39m
+2024-04-15 12:28:46:2846 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 6.081 ms[39m
+[35m[39m
+2024-04-15 12:48:33:4833 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.358 ms[39m
+[35m[39m
+2024-04-15 12:48:33:4833 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 26.725 ms[39m
+[35m[39m
+2024-04-15 12:48:33:4833 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.241 ms[39m
+[35m[39m
+2024-04-15 12:48:33:4833 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 1.349 ms[39m
+[35m[39m
+2024-04-15 13:18:43:1843 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 16.101 ms[39m
+[35m[39m
+2024-04-15 13:18:43:1843 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.114 ms[39m
+[35m[39m
+2024-04-15 13:18:43:1843 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 28.693 ms[39m
+[35m[39m
+2024-04-15 13:18:43:1843 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 3.915 ms[39m
+[35m[39m
+2024-04-15 13:44:07:447 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:44:09:449 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:44:10:4410 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:44:20:4420 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:44:29:4429 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:48:32:4832 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:48:39:4839 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:48:42:4842 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:48:44:4844 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:48:45:4845 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:48:48:4848 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:49:17:4917 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:49:44:4944 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:49:58:4958 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:49:59:4959 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:50:01:501 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:50:06:506 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:50:09:509 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:50:15:5015 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:50:29:5029 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:50:40:5040 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:50:45:5045 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:51:03:513 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:51:09:519 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:51:12:5112 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:51:14:5114 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:51:16:5116 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:52:55:5255 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:58:51:5851 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:59:05:595 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:59:09:599 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:59:27:5927 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:59:35:5935 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:59:52:5952 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 13:59:55:5955 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 14:02:05:25 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 14:02:40:240 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 14:03:41:341 [[35mhttp[39m] [35m::1 POST /api/reservation? 400 41 - 19.880 ms[39m
+[35m[39m
+2024-04-15 14:03:46:346 [[35mhttp[39m] [35m::1 POST /auth/signin 200 209 - 135.860 ms[39m
+[35m[39m
+2024-04-15 14:03:57:357 [[35mhttp[39m] [35m::1 POST /api/reservation? 201 202 - 83.800 ms[39m
+[35m[39m
+2024-04-15 14:08:48:848 [[35mhttp[39m] [35mDebut session[39m
+2024-04-15 14:09:27:927 [[35mhttp[39m] [35m::1 POST /auth/signin 400 44 - 113.211 ms[39m
+[35m[39m
+2024-04-15 14:09:43:943 [[35mhttp[39m] [35m::1 POST /auth/signin 400 44 - 19.493 ms[39m
+[35m[39m
+2024-04-15 14:10:04:104 [[35mhttp[39m] [35m::1 POST /auth/signup 400 34 - 100.485 ms[39m
+[35m[39m
+2024-04-15 14:10:08:108 [[35mhttp[39m] [35m::1 POST /auth/signin 400 44 - 4.029 ms[39m
+[35m[39m
+2024-04-15 14:47:35:4735 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 9.118 ms[39m
+[35m[39m
+2024-04-15 14:47:35:4735 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.401 ms[39m
+[35m[39m
+2024-04-15 14:47:35:4735 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 61.921 ms[39m
+[35m[39m
+2024-04-15 14:47:35:4735 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.319 ms[39m
+[35m[39m
+2024-04-15 16:53:48:5348 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 14.837 ms[39m
+[35m[39m
+2024-04-15 16:53:48:5348 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.519 ms[39m
+[35m[39m
+2024-04-15 16:53:48:5348 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 73.214 ms[39m
+[35m[39m
+2024-04-15 16:53:48:5348 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.091 ms[39m
+[35m[39m
+2024-04-15 17:19:04:194 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 8.297 ms[39m
+[35m[39m
+2024-04-15 17:19:04:194 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 32.413 ms[39m
+[35m[39m
+2024-04-15 17:19:04:194 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.890 ms[39m
+[35m[39m
+2024-04-15 17:19:04:194 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 9.174 ms[39m
+[35m[39m
+2024-04-15 17:54:07:547 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 3.699 ms[39m
+[35m[39m
+2024-04-15 17:54:07:547 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.450 ms[39m
+[35m[39m
+2024-04-15 17:54:07:547 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 38.987 ms[39m
+[35m[39m
+2024-04-15 17:54:07:547 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.416 ms[39m
+[35m[39m
+2024-04-15 22:17:49:1749 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 10.197 ms[39m
+[35m[39m
+2024-04-15 22:17:49:1749 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 24.913 ms[39m
+[35m[39m
+2024-04-15 22:17:49:1749 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.683 ms[39m
+[35m[39m
+2024-04-15 22:17:49:1749 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.741 ms[39m
+[35m[39m
+2024-04-15 22:29:30:2930 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.773 ms[39m
+[35m[39m
+2024-04-15 22:29:30:2930 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.861 ms[39m
+[35m[39m
+2024-04-15 22:29:30:2930 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 48.784 ms[39m
+[35m[39m
+2024-04-15 22:29:30:2930 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 1.370 ms[39m
+[35m[39m
+2024-04-15 22:32:24:3224 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 3.445 ms[39m
+[35m[39m
+2024-04-15 22:32:24:3224 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 8.659 ms[39m
+[35m[39m
+2024-04-15 22:32:24:3224 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 24.613 ms[39m
+[35m[39m
+2024-04-15 22:32:24:3224 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 17.781 ms[39m
+[35m[39m
+2024-04-15 22:48:56:4856 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.424 ms[39m
+[35m[39m
+2024-04-15 22:48:56:4856 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.209 ms[39m
+[35m[39m
+2024-04-15 22:48:56:4856 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 24.445 ms[39m
+[35m[39m
+2024-04-15 22:48:56:4856 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 3.842 ms[39m
+[35m[39m
+2024-04-15 22:58:21:5821 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 2.878 ms[39m
+[35m[39m
+2024-04-15 22:58:21:5821 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.251 ms[39m
+[35m[39m
+2024-04-15 22:58:21:5821 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 21.356 ms[39m
+[35m[39m
+2024-04-15 22:58:21:5821 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 4.997 ms[39m
+[35m[39m
+2024-04-15 23:02:44:244 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.295 ms[39m
+[35m[39m
+2024-04-15 23:02:44:244 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.201 ms[39m
+[35m[39m
+2024-04-15 23:02:44:244 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 20.939 ms[39m
+[35m[39m
+2024-04-15 23:02:44:244 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.196 ms[39m
+[35m[39m
+2024-04-15 23:23:10:2310 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.819 ms[39m
+[35m[39m
+2024-04-15 23:23:10:2310 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 23.050 ms[39m
+[35m[39m
+2024-04-15 23:23:10:2310 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.517 ms[39m
+[35m[39m
+2024-04-15 23:23:10:2310 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.012 ms[39m
+[35m[39m
+2024-04-15 23:26:15:2615 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.415 ms[39m
+[35m[39m
+2024-04-15 23:26:15:2615 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 20.655 ms[39m
+[35m[39m
+2024-04-15 23:26:15:2615 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.259 ms[39m
+[35m[39m
+2024-04-15 23:26:15:2615 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.194 ms[39m
+[35m[39m
+2024-04-15 23:35:20:3520 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 2.032 ms[39m
+[35m[39m
+2024-04-15 23:35:20:3520 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.085 ms[39m
+[35m[39m
+2024-04-15 23:35:20:3520 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 19.179 ms[39m
+[35m[39m
+2024-04-15 23:35:20:3520 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 1.812 ms[39m
+[35m[39m
+2024-04-15 23:38:44:3844 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.493 ms[39m
+[35m[39m
+2024-04-15 23:38:44:3844 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 16.615 ms[39m
+[35m[39m
+2024-04-15 23:38:44:3844 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.212 ms[39m
+[35m[39m
+2024-04-15 23:38:44:3844 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 1.608 ms[39m
+[35m[39m
+2024-04-15 23:42:46:4246 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.496 ms[39m
+[35m[39m
+2024-04-15 23:42:46:4246 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.428 ms[39m
+[35m[39m
+2024-04-15 23:42:46:4246 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 11.883 ms[39m
+[35m[39m
+2024-04-15 23:42:46:4246 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 8.486 ms[39m
+[35m[39m
+2024-04-15 23:50:38:5038 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.559 ms[39m
+[35m[39m
+2024-04-15 23:50:38:5038 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 17.143 ms[39m
+[35m[39m
+2024-04-15 23:50:38:5038 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.137 ms[39m
+[35m[39m
+2024-04-15 23:50:38:5038 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 3.130 ms[39m
+[35m[39m
+2024-04-15 23:58:34:5834 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.485 ms[39m
+[35m[39m
+2024-04-15 23:58:35:5835 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.832 ms[39m
+[35m[39m
+2024-04-15 23:58:35:5835 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 25.453 ms[39m
+[35m[39m
+2024-04-15 23:58:35:5835 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 3.287 ms[39m
+[35m[39m
+2024-04-15 23:59:58:5958 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.647 ms[39m
+[35m[39m
+2024-04-15 23:59:58:5958 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.727 ms[39m
+[35m[39m
+2024-04-15 23:59:58:5958 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 45.587 ms[39m
+[35m[39m
+2024-04-15 23:59:58:5958 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 1.207 ms[39m
+[35m[39m
+2024-04-16 00:09:30:930 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 13.069 ms[39m
+[35m[39m
+2024-04-16 00:09:30:930 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.204 ms[39m
+[35m[39m
+2024-04-16 00:09:30:930 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 56.221 ms[39m
+[35m[39m
+2024-04-16 00:09:30:930 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 5.807 ms[39m
+[35m[39m
+2024-04-16 10:14:36:1436 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 2.065 ms[39m
+[35m[39m
+2024-04-16 10:14:36:1436 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.172 ms[39m
+[35m[39m
+2024-04-16 10:14:36:1436 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 20.153 ms[39m
+[35m[39m
+2024-04-16 10:14:36:1436 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 3.648 ms[39m
+[35m[39m
+2024-04-16 10:21:35:2135 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.936 ms[39m
+[35m[39m
+2024-04-16 10:21:35:2135 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 19.814 ms[39m
+[35m[39m
+2024-04-16 10:21:35:2135 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.143 ms[39m
+[35m[39m
+2024-04-16 10:21:35:2135 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 3.758 ms[39m
+[35m[39m
+2024-04-16 10:44:28:4428 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 2.400 ms[39m
+[35m[39m
+2024-04-16 10:44:28:4428 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.639 ms[39m
+[35m[39m
+2024-04-16 10:44:28:4428 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 22.674 ms[39m
+[35m[39m
+2024-04-16 10:44:28:4428 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 0.873 ms[39m
+[35m[39m
+2024-04-16 11:18:28:1828 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 4.611 ms[39m
+[35m[39m
+2024-04-16 11:18:28:1828 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.226 ms[39m
+[35m[39m
+2024-04-16 11:18:28:1828 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 28.016 ms[39m
+[35m[39m
+2024-04-16 11:18:28:1828 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 5.284 ms[39m
+[35m[39m
+2024-04-16 11:30:05:305 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 3.838 ms[39m
+[35m[39m
+2024-04-16 11:30:05:305 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.440 ms[39m
+[35m[39m
+2024-04-16 11:30:05:305 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 14.860 ms[39m
+[35m[39m
+2024-04-16 11:30:05:305 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 1.565 ms[39m
+[35m[39m
+2024-04-16 11:46:56:4656 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 2.910 ms[39m
+[35m[39m
+2024-04-16 11:46:56:4656 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.327 ms[39m
+[35m[39m
+2024-04-16 11:46:56:4656 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 15.603 ms[39m
+[35m[39m
+2024-04-16 11:46:56:4656 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 4.532 ms[39m
+[35m[39m
+2024-04-16 11:53:43:5343 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.352 ms[39m
+[35m[39m
+2024-04-16 11:53:43:5343 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.527 ms[39m
+[35m[39m
+2024-04-16 11:53:44:5344 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 19.784 ms[39m
+[35m[39m
+2024-04-16 11:53:44:5344 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 1.169 ms[39m
+[35m[39m
+2024-04-16 12:01:40:140 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.259 ms[39m
+[35m[39m
+2024-04-16 12:01:40:140 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.182 ms[39m
+[35m[39m
+2024-04-16 12:01:40:140 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 49.173 ms[39m
+[35m[39m
+2024-04-16 12:01:40:140 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.827 ms[39m
+[35m[39m
+2024-04-16 12:11:27:1127 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.996 ms[39m
+[35m[39m
+2024-04-16 12:11:27:1127 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.250 ms[39m
+[35m[39m
+2024-04-16 12:11:27:1127 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 21.660 ms[39m
+[35m[39m
+2024-04-16 12:11:27:1127 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.044 ms[39m
+[35m[39m
+2024-04-16 12:54:13:5413 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 9.855 ms[39m
+[35m[39m
+2024-04-16 12:54:13:5413 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.091 ms[39m
+[35m[39m
+2024-04-16 12:54:13:5413 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 26.836 ms[39m
+[35m[39m
+2024-04-16 12:54:13:5413 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 4.552 ms[39m
+[35m[39m
+2024-04-16 13:39:20:3920 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.750 ms[39m
+[35m[39m
+2024-04-16 13:39:20:3920 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.177 ms[39m
+[35m[39m
+2024-04-16 13:39:20:3920 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 18.497 ms[39m
+[35m[39m
+2024-04-16 13:39:20:3920 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.909 ms[39m
+[35m[39m
+2024-04-16 13:46:11:4611 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.646 ms[39m
+[35m[39m
+2024-04-16 13:46:11:4611 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.111 ms[39m
+[35m[39m
+2024-04-16 13:46:11:4611 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 40.361 ms[39m
+[35m[39m
+2024-04-16 13:46:11:4611 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.249 ms[39m
+[35m[39m
+2024-04-16 13:54:03:543 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.759 ms[39m
+[35m[39m
+2024-04-16 13:54:03:543 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.332 ms[39m
+[35m[39m
+2024-04-16 13:54:03:543 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 22.305 ms[39m
+[35m[39m
+2024-04-16 13:54:03:543 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.780 ms[39m
+[35m[39m
+2024-04-16 13:57:20:5720 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.117 ms[39m
+[35m[39m
+2024-04-16 13:57:20:5720 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.296 ms[39m
+[35m[39m
+2024-04-16 13:57:20:5720 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 16.501 ms[39m
+[35m[39m
+2024-04-16 13:57:20:5720 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 10.990 ms[39m
+[35m[39m
+2024-04-16 14:11:22:1122 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.791 ms[39m
+[35m[39m
+2024-04-16 14:11:22:1122 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.165 ms[39m
+[35m[39m
+2024-04-16 14:11:22:1122 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 14.388 ms[39m
+[35m[39m
+2024-04-16 14:11:22:1122 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 3.623 ms[39m
+[35m[39m
+2024-04-16 14:26:05:265 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.055 ms[39m
+[35m[39m
+2024-04-16 14:26:05:265 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.617 ms[39m
+[35m[39m
+2024-04-16 14:26:05:265 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 30.934 ms[39m
+[35m[39m
+2024-04-16 14:26:05:265 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 5.324 ms[39m
+[35m[39m
+2024-04-16 14:27:49:2749 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.003 ms[39m
+[35m[39m
+2024-04-16 14:27:49:2749 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 12.497 ms[39m
+[35m[39m
+2024-04-16 14:27:49:2749 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.143 ms[39m
+[35m[39m
+2024-04-16 14:27:49:2749 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 3.048 ms[39m
+[35m[39m
+2024-04-16 14:58:07:587 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.850 ms[39m
+[35m[39m
+2024-04-16 14:58:07:587 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 48.741 ms[39m
+[35m[39m
+2024-04-16 14:58:07:587 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.309 ms[39m
+[35m[39m
+2024-04-16 14:58:07:587 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 1.321 ms[39m
+[35m[39m
+2024-04-16 15:35:16:3516 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 16.890 ms[39m
+[35m[39m
+2024-04-16 15:35:16:3516 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.709 ms[39m
+[35m[39m
+2024-04-16 15:35:16:3516 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 72.690 ms[39m
+[35m[39m
+2024-04-16 15:35:16:3516 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.022 ms[39m
+[35m[39m
+2024-04-16 16:00:00:00 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 8.515 ms[39m
+[35m[39m
+2024-04-16 16:00:00:00 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.408 ms[39m
+[35m[39m
+2024-04-16 16:00:00:00 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 56.531 ms[39m
+[35m[39m
+2024-04-16 16:00:00:00 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 1.909 ms[39m
+[35m[39m
+2024-04-16 16:03:55:355 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.872 ms[39m
+[35m[39m
+2024-04-16 16:03:55:355 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.725 ms[39m
+[35m[39m
+2024-04-16 16:03:55:355 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 20.955 ms[39m
+[35m[39m
+2024-04-16 16:03:55:355 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 14.499 ms[39m
+[35m[39m
+2024-04-16 16:19:52:1952 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 4.760 ms[39m
+[35m[39m
+2024-04-16 16:19:52:1952 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.374 ms[39m
+[35m[39m
+2024-04-16 16:19:52:1952 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 19.466 ms[39m
+[35m[39m
+2024-04-16 16:19:52:1952 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 5.548 ms[39m
+[35m[39m
+2024-04-16 16:49:43:4943 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 2.029 ms[39m
+[35m[39m
+2024-04-16 16:49:43:4943 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 17.523 ms[39m
+[35m[39m
+2024-04-16 16:49:43:4943 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.106 ms[39m
+[35m[39m
+2024-04-16 16:49:43:4943 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.513 ms[39m
+[35m[39m
+2024-04-16 18:39:08:398 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.474 ms[39m
+[35m[39m
+2024-04-16 18:39:08:398 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.093 ms[39m
+[35m[39m
+2024-04-16 18:39:08:398 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 27.954 ms[39m
+[35m[39m
+2024-04-16 18:39:08:398 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.777 ms[39m
+[35m[39m
+2024-04-17 10:48:46:4846 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 7.453 ms[39m
+[35m[39m
+2024-04-17 10:48:46:4846 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.184 ms[39m
+[35m[39m
+2024-04-17 10:48:46:4846 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 23.564 ms[39m
+[35m[39m
+2024-04-17 10:48:46:4846 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 3.585 ms[39m
+[35m[39m
+2024-04-17 11:06:24:624 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.824 ms[39m
+[35m[39m
+2024-04-17 11:06:24:624 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.696 ms[39m
+[35m[39m
+2024-04-17 11:06:24:624 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 24.361 ms[39m
+[35m[39m
+2024-04-17 11:06:24:624 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 1.244 ms[39m
+[35m[39m
+2024-04-17 11:10:13:1013 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.899 ms[39m
+[35m[39m
+2024-04-17 11:10:13:1013 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.087 ms[39m
+[35m[39m
+2024-04-17 11:10:13:1013 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 45.844 ms[39m
+[35m[39m
+2024-04-17 11:10:13:1013 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 7.163 ms[39m
+[35m[39m
+2024-04-17 11:15:09:159 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.911 ms[39m
+[35m[39m
+2024-04-17 11:15:09:159 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.562 ms[39m
+[35m[39m
+2024-04-17 11:15:09:159 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 21.642 ms[39m
+[35m[39m
+2024-04-17 11:15:09:159 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.635 ms[39m
+[35m[39m
+2024-04-17 11:18:22:1822 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.772 ms[39m
+[35m[39m
+2024-04-17 11:18:22:1822 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 11.917 ms[39m
+[35m[39m
+2024-04-17 11:18:22:1822 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 3.508 ms[39m
+[35m[39m
+2024-04-17 11:18:22:1822 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.257 ms[39m
+[35m[39m
+2024-04-17 11:42:31:4231 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 3.145 ms[39m
+[35m[39m
+2024-04-17 11:42:31:4231 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.366 ms[39m
+[35m[39m
+2024-04-17 11:42:31:4231 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 32.575 ms[39m
+[35m[39m
+2024-04-17 11:42:31:4231 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.091 ms[39m
+[35m[39m
+2024-04-17 11:47:47:4747 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 2.742 ms[39m
+[35m[39m
+2024-04-17 11:47:47:4747 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 17.677 ms[39m
+[35m[39m
+2024-04-17 11:47:47:4747 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 31.721 ms[39m
+[35m[39m
+2024-04-17 11:47:47:4747 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.377 ms[39m
+[35m[39m
+2024-04-17 11:59:52:5952 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 17.126 ms[39m
+[35m[39m
+2024-04-17 11:59:52:5952 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.809 ms[39m
+[35m[39m
+2024-04-17 11:59:53:5953 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 106.988 ms[39m
+[35m[39m
+2024-04-17 11:59:53:5953 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 4.591 ms[39m
+[35m[39m
+2024-04-17 12:06:25:625 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 2.793 ms[39m
+[35m[39m
+2024-04-17 12:06:25:625 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 2.807 ms[39m
+[35m[39m
+2024-04-17 12:06:25:625 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 54.059 ms[39m
+[35m[39m
+2024-04-17 12:06:25:625 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 3.485 ms[39m
+[35m[39m
+2024-04-17 12:27:06:276 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.904 ms[39m
+[35m[39m
+2024-04-17 12:27:06:276 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.142 ms[39m
+[35m[39m
+2024-04-17 12:27:06:276 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 34.433 ms[39m
+[35m[39m
+2024-04-17 12:27:06:276 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 4.069 ms[39m
+[35m[39m
+2024-04-17 12:28:51:2851 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.432 ms[39m
+[35m[39m
+2024-04-17 12:28:51:2851 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.808 ms[39m
+[35m[39m
+2024-04-17 12:28:51:2851 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 24.234 ms[39m
+[35m[39m
+2024-04-17 12:28:51:2851 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 9.121 ms[39m
+[35m[39m
+2024-04-17 12:45:13:4513 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.589 ms[39m
+[35m[39m
+2024-04-17 12:45:13:4513 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.221 ms[39m
+[35m[39m
+2024-04-17 12:45:13:4513 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 64.683 ms[39m
+[35m[39m
+2024-04-17 12:45:13:4513 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 18.747 ms[39m
+[35m[39m
+2024-04-17 13:39:35:3935 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 10.227 ms[39m
+[35m[39m
+2024-04-17 13:39:35:3935 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.255 ms[39m
+[35m[39m
+2024-04-17 13:39:35:3935 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 57.122 ms[39m
+[35m[39m
+2024-04-17 13:39:35:3935 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 2.471 ms[39m
+[35m[39m
+2024-04-17 13:55:54:5554 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 6.612 ms[39m
+[35m[39m
+2024-04-17 13:55:54:5554 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.245 ms[39m
+[35m[39m
+2024-04-17 13:55:54:5554 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 55.469 ms[39m
+[35m[39m
+2024-04-17 13:55:54:5554 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 3.523 ms[39m
+[35m[39m
+2024-04-17 14:01:24:124 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 2.175 ms[39m
+[35m[39m
+2024-04-17 14:01:24:124 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.301 ms[39m
+[35m[39m
+2024-04-17 14:01:24:124 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 21.541 ms[39m
+[35m[39m
+2024-04-17 14:01:24:124 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 11.818 ms[39m
+[35m[39m
+2024-04-17 14:14:46:1446 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 3.678 ms[39m
+[35m[39m
+2024-04-17 14:14:46:1446 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 43.396 ms[39m
+[35m[39m
+2024-04-17 14:14:46:1446 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.910 ms[39m
+[35m[39m
+2024-04-17 14:14:46:1446 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 11.877 ms[39m
+[35m[39m
+2024-04-17 14:17:45:1745 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 1.261 ms[39m
+[35m[39m
+2024-04-17 14:17:45:1745 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 0.763 ms[39m
+[35m[39m
+2024-04-17 14:17:45:1745 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 39.894 ms[39m
+[35m[39m
+2024-04-17 14:17:45:1745 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 11.726 ms[39m
+[35m[39m
+2024-04-17 14:55:05:555 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 4.082 ms[39m
+[35m[39m
+2024-04-17 14:55:05:555 [[35mhttp[39m] [35m::1 OPTIONS /api/reservation 200 0 - 24.297 ms[39m
+[35m[39m
+2024-04-17 14:55:05:555 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 74.607 ms[39m
+[35m[39m
+2024-04-17 14:55:05:555 [[35mhttp[39m] [35m::1 GET /api/reservation 400 41 - 3.161 ms[39m
+[35m[39m
+2024-04-17 15:31:59:3159 [[35mhttp[39m] [35mDebut session[39m
+2024-04-17 15:31:59:3159 [[35mhttp[39m] [35mDebut session[39m
+2024-06-10 09:12:13:1213 [[35mhttp[39m] [35mDebut session[39m
+2024-06-10 09:20:53:2053 [[35mhttp[39m] [35mDebut session[39m
+2024-06-10 09:20:53:2053 [[35mhttp[39m] [35mDebut session[39m
+2024-06-10 09:21:16:2116 [[35mhttp[39m] [35mDebut session[39m
+2024-06-10 09:24:54:2454 [[35mhttp[39m] [35m::1 GET / 404 139 - 7.885 ms[39m
+[35m[39m
+2024-06-10 09:24:54:2454 [[35mhttp[39m] [35m::1 GET /apple-touch-icon-precomposed.png 404 171 - 1.757 ms[39m
+[35m[39m
+2024-06-10 09:24:55:2455 [[35mhttp[39m] [35m::1 GET /apple-touch-icon.png 404 159 - 1.729 ms[39m
+[35m[39m
+2024-06-10 09:24:59:2459 [[35mhttp[39m] [35m::1 GET / 404 139 - 1.256 ms[39m
+[35m[39m
+2024-06-10 09:27:22:2722 [[35mhttp[39m] [35m::1 GET / 404 139 - 3.144 ms[39m
+[35m[39m
+2024-06-10 09:31:57:3157 [[35mhttp[39m] [35m::1 POST /api/reservation? 400 41 - 29.646 ms[39m
+[35m[39m
+2024-06-10 09:32:05:325 [[35mhttp[39m] [35m::1 POST /auth/signin 400 44 - 844.644 ms[39m
+[35m[39m
+2024-06-10 09:32:14:3214 [[35mhttp[39m] [35m::1 POST /auth/signup 400 34 - 82.501 ms[39m
+[35m[39m
+2024-06-10 09:33:03:333 [[35mhttp[39m] [35m::1 POST /auth/signup 201 170 - 95.621 ms[39m
+[35m[39m
+2024-06-10 09:33:47:3347 [[35mhttp[39m] [35m::1 POST /auth/signin 200 207 - 98.218 ms[39m
+[35m[39m
+2024-06-10 09:34:15:3415 [[35mhttp[39m] [35m::1 POST /api/reservation? 500 60 - 41.184 ms[39m
+[35m[39m
+2024-06-10 09:40:44:4044 [[35mhttp[39m] [35mDebut session[39m
+2024-06-10 09:41:08:418 [[35mhttp[39m] [35m::1 POST /auth/signin 200 207 - 130.607 ms[39m
+[35m[39m
+2024-06-10 09:41:39:4139 [[35mhttp[39m] [35m::1 POST /api/reservation? 201 202 - 78.880 ms[39m
+[35m[39m
+2024-06-10 09:56:27:5627 [[35mhttp[39m] [35m::1 POST /auth/signin 200 207 - 105.184 ms[39m
+[35m[39m
+2024-06-10 09:56:42:5642 [[35mhttp[39m] [35m::1 GET /api/reservation 404 154 - 13.165 ms[39m
+[35m[39m
+2024-06-10 09:56:49:5649 [[35mhttp[39m] [35m::1 POST /api/reservation? 500 60 - 16.720 ms[39m
+[35m[39m
+2024-06-10 10:02:04:24 [[35mhttp[39m] [35mDebut session[39m
+2024-06-10 10:02:11:211 [[35mhttp[39m] [35m::1 POST /auth/signin 200 207 - 130.969 ms[39m
+[35m[39m
+2024-06-10 10:02:28:228 [[35mhttp[39m] [35m::1 POST /auth/signup 400 34 - 95.819 ms[39m
+[35m[39m
+2024-06-10 10:03:01:31 [[35mhttp[39m] [35m::1 POST /api/reservation? 500 60 - 63.198 ms[39m
+[35m[39m
+2024-06-10 10:03:39:339 [[35mhttp[39m] [35mDebut session[39m
+2024-06-10 10:03:45:345 [[35mhttp[39m] [35m::1 POST /auth/signin 200 207 - 127.433 ms[39m
+[35m[39m
+2024-06-12 09:12:05:125 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 09:12:05:125 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:04:07:47 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:04:15:415 [[35mhttp[39m] [35m::1 POST /auth/signin 200 207 - 161.268 ms[39m
+[35m[39m
+2024-06-12 10:04:42:442 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:04:42:442 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:40:33:4033 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:40:38:4038 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:40:38:4038 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:40:46:4046 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:40:48:4048 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:40:48:4048 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:40:52:4052 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:40:52:4052 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:40:59:4059 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:40:59:4059 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:41:09:419 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:41:09:419 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:41:22:4122 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:41:22:4122 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:45:49:4549 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:52:14:5214 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:52:14:5214 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:52:55:5255 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:52:55:5255 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:53:02:532 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:53:02:532 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:53:26:5326 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:53:26:5326 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:53:26:5326 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:53:57:5357 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:53:57:5357 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:53:57:5357 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:54:03:543 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:54:03:543 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:54:03:543 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:54:25:5425 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:54:25:5425 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:54:25:5425 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:55:00:550 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:55:00:550 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:55:47:5547 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:55:47:5547 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:55:51:5551 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:55:51:5551 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:55:51:5551 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:56:44:5644 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:56:44:5644 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:56:44:5644 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:57:07:577 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:57:07:577 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:57:07:577 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:57:19:5719 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:57:19:5719 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:57:19:5719 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:57:49:5749 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:57:49:5749 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:57:49:5749 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:57:55:5755 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:57:55:5755 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:57:55:5755 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 10:59:32:5932 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:00:43:043 [[35mhttp[39m] [35m::1 POST /auth/signin 400 44 - 92.393 ms[39m
+[35m[39m
+2024-06-12 11:01:27:127 [[35mhttp[39m] [35m::1 POST /auth/signup 201 170 - 156.413 ms[39m
+[35m[39m
+2024-06-12 11:01:40:140 [[35mhttp[39m] [35m::1 POST /auth/signin 200 207 - 105.306 ms[39m
+[35m[39m
+2024-06-12 11:02:52:252 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:02:52:252 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:02:52:252 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:05:12:512 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:05:12:512 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:05:13:513 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:08:33:833 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:08:33:833 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:08:33:833 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:09:19:919 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:09:19:919 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:09:19:919 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:12:53:1253 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:13:04:134 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:18:52:1852 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:18:52:1852 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:18:52:1852 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:18:58:1858 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:18:58:1858 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:18:59:1859 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:19:08:198 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:19:08:198 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:19:08:198 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:20:07:207 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:20:07:207 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:20:07:207 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:20:20:2020 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:20:20:2020 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:20:20:2020 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:20:26:2026 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:20:26:2026 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:20:26:2026 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:20:54:2054 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:20:54:2054 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:20:54:2054 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:20:58:2058 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:20:58:2058 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:20:58:2058 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:25:47:2547 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:25:47:2547 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:25:54:2554 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:25:54:2554 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:25:54:2554 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:25:55:2555 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:25:55:2555 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:25:55:2555 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:26:53:2653 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:26:53:2653 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:27:05:275 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:27:05:275 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:27:16:2716 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:27:16:2716 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:27:20:2720 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:27:20:2720 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:27:31:2731 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:27:31:2731 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:27:33:2733 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:27:33:2733 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:28:04:284 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:28:04:284 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:28:12:2812 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:28:12:2812 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:28:14:2814 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:28:14:2814 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:28:30:2830 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:28:30:2830 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:28:32:2832 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:28:32:2832 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:28:35:2835 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:28:35:2835 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:28:40:2840 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:28:40:2840 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:29:19:2919 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:29:19:2919 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:29:24:2924 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:29:24:2924 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:29:38:2938 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:29:38:2938 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:29:43:2943 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:29:43:2943 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:32:50:3250 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:32:50:3250 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:32:50:3250 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:33:30:3330 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:33:30:3330 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:34:11:3411 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:34:11:3411 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:34:22:3422 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:34:22:3422 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:34:48:3448 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:34:48:3448 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:35:00:350 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:35:00:350 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:35:04:354 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:35:04:354 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:38:44:3844 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:38:44:3844 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:38:44:3844 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:38:54:3854 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:38:54:3854 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:38:54:3854 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:39:02:392 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:39:02:392 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:39:03:393 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:39:03:393 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:39:11:3911 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:39:11:3911 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:39:14:3914 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:39:14:3914 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:40:10:4010 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:40:10:4010 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:40:19:4019 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:40:19:4019 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:40:56:4056 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:40:56:4056 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:41:21:4121 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:41:21:4121 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:41:32:4132 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:41:32:4132 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:41:38:4138 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:41:38:4138 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:41:41:4141 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:41:41:4141 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:42:07:427 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:42:07:427 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:42:15:4215 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:42:15:4215 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:43:49:4349 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:43:49:4349 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:43:49:4349 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:44:01:441 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:44:01:441 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:44:01:441 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 11:59:35:5935 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:12:712 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:12:712 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:12:712 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:18:718 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:18:718 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:18:718 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:20:720 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:20:720 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:20:720 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:28:728 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:28:728 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:28:728 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:34:734 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:34:734 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:35:735 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:35:735 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:35:735 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:38:738 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:38:738 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:38:738 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:42:742 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:42:742 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:42:742 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:44:744 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:44:744 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:47:747 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:47:747 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:47:747 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:50:750 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:50:750 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:52:752 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:52:752 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:52:752 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:54:754 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:54:754 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:56:756 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:56:756 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:56:756 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:58:758 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:07:58:758 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:00:80 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:00:80 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:00:80 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:04:84 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:04:84 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:06:86 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:06:86 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:06:86 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:07:87 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:07:87 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:09:89 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:09:89 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:09:89 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:46:846 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:46:846 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:46:846 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:49:849 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:49:849 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:49:849 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:52:852 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:52:852 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:08:53:853 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:09:10:910 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:09:10:910 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:09:10:910 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:09:18:918 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:09:18:918 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:09:18:918 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:09:23:923 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:09:23:923 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:09:23:923 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:09:29:929 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:09:29:929 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:09:29:929 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:10:21:1021 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:11:14:1114 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:11:14:1114 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:11:15:1115 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:11:15:1115 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:11:15:1115 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:12:40:1240 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:12:41:1241 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:12:41:1241 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:20:12:2012 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:20:12:2012 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:20:12:2012 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:20:15:2015 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:20:15:2015 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:20:15:2015 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:20:18:2018 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:20:18:2018 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:20:18:2018 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:22:51:2251 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:22:51:2251 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:22:51:2251 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:22:59:2259 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:22:59:2259 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:22:59:2259 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:23:01:231 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:23:01:231 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:23:01:231 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:24:06:246 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:24:06:246 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:24:06:246 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:25:40:2540 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:25:48:2548 [[35mhttp[39m] [35m::1 POST /auth/signup 400 34 - 171.227 ms[39m
+[35m[39m
+2024-06-12 12:26:00:260 [[35mhttp[39m] [35m::1 POST /auth/signup 201 172 - 148.585 ms[39m
+[35m[39m
+2024-06-12 12:27:32:2732 [[35mhttp[39m] [35m::1 POST /auth/signup 400 34 - 120.522 ms[39m
+[35m[39m
+2024-06-12 12:27:37:2737 [[35mhttp[39m] [35m::1 POST /auth/signup 201 213 - 91.188 ms[39m
+[35m[39m
+2024-06-12 12:28:42:2842 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:28:42:2842 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:28:42:2842 [[35mhttp[39m] [35mDebut session[39m
+2024-06-12 12:48:03:483 [[35mhttp[39m] [35m::1 POST /auth/signup 400 34 - 115.156 ms[39m
+[35m[39m
+2024-06-12 12:48:22:4822 [[35mhttp[39m] [35m::1 POST /auth/signup 201 211 - 114.907 ms[39m
+[35m[39m
