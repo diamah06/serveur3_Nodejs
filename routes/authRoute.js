@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { signUpValidationRules, signInValidationRules } = require('../middlewares/authValidationRules');
+const { signUpValidationRules, signInValidationRules } = require('../middlewares/AuthValidationRules');
 const authController = require('../controllers/authController');
 
 // Sign-up (Inscription)
