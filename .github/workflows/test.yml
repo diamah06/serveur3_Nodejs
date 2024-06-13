@@ -58,8 +58,8 @@ jobs:
       - name: Run migrations
         run: npx sequelize-cli db:migrate
 
-      - name: Run seeds
-        run: npx sequelize-cli db:seed:all
+#- name: Run seeds
+ #       run: npx sequelize-cli db:seed:all
 
       - name: Run tests
 
