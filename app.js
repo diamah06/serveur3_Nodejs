@@ -7,6 +7,7 @@ const authRouter = require('./routes/authRoute');
 const jwt = require("jsonwebtoken");
 const morganMiddleware = require("./middlewares/morgan.middleware");
 const logger = require("./utils/logger"); //logger de la fonction utils
+require("dotenv").config();
 
 const cors = require('cors')
 
