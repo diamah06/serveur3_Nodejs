@@ -7,8 +7,8 @@ async function seed() {
   const users = [
     {
       role: "client",
-      firstName: "client1",
-      lastName: "isClient",
+      first_name: "client1",
+      last_name: "isClient",
       email: "client1@mail.com",
       phoneNumber: "000",
       password: "12345",

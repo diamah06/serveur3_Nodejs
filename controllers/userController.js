@@ -112,8 +112,8 @@ exports.updateUserDetails = async (req, res, next) => {
     }
 
     // Update the user attributes
-    user.firstName = firstName;
-    user.lastName = lastName;
+    user.first_name = firstName;
+    user.last_name = lastName;
     user.email = email;
     user.phoneNumber = phoneNumber;
 

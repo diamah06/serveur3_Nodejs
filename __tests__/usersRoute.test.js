@@ -10,6 +10,49 @@ describe("GET /api/user/currentUser", () => {
   });
 });
 
+describe("POST /api/user", () => {
+  it("should return a 401 error", async () => {
+    const res = await request(app)
+      .post("/api/user")
+      .send({
+        first_name: "test",
+        last_name: "test",
+        email: "est@gmail.com",
+        phoneNumber: "000",
+      })
+      .expect(401);
+  });
+});
+
+describe("PUT /api/user", () => {
+  it("should return a 401 error", async () => {
+    const res = await request(app)
+      .post("/api/user")
+      .send({
+        first_name: "test2",
+        last_name: "test",
+        email: "test@mail.com",
+        phoneNumber: "900",
+      })
+      .expect(401);
+  });
+});
+
+describe("DELETE /api/user", () => {
+  it("should return a 401 error", async () => {
+    const res = await request(app)
+      .post("/api/user")
+      .send({
+        first_name: "test",
+        last_name: "test",
+        email: "est@gmail.com",
+        phoneNumber: "000",
+      })
+      .expect(401);
+  });
+});
+
+
 describe("GET /api/user/currentUser", () => {
   it("should return a 401 error", async () => {
     const res = await request(app)

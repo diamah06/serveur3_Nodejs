@@ -9,8 +9,8 @@ describe("POST /auth/signup", () => {
         .expect("Content-Type", /json/)
         .send({
             email:"email@test.com",
-            password:"G2/assword",
-            role: "client",
+            password:"G2assword?",
+           // role: "client",
             first_name:"moi",
             last_name:"june2",
             phoneNumber:"000"

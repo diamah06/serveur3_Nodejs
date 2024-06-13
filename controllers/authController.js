@@ -13,9 +13,9 @@ exports.signup = async (req, res) => {
 
     const user = {
       password: hashedPassword,
-      first_name, // Utiliser first_name
+      first_name, 
       role: "client", // Le rôle est défini par défaut comme "client"
-      last_name, // Utiliser last_name
+      last_name, 
       email,
       phoneNumber,
     };
