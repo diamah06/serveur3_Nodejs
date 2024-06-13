@@ -49,6 +49,11 @@ jobs:
         run: | 
           echo "DATABASE_URL=postgres://postgres:postgres@localhost:5432/testdb" >> $GITHUB_ENV
           echo "NODE_ENV=test" >> $GITHUB_ENV
+          echo "TEST_DB_USER=postgres" >>  $GITHUB_ENV
+          echo "TEST_DB_PASSWORD=postgres" >>  $GITHUB_ENV
+          echo "TEST_DB_NAME=testdb" >>  $GITHUB_ENV
+          echo "TEST_DB_HOST=localhost" >>  $GITHUB_ENV
+          
 
       - name: Run migrations
         run: npx sequelize-cli db:migrate
