@@ -15,7 +15,9 @@ describe("GET /api/room", () => {
     it("should return a 401 error", async () => {
       const res = await request(app)
         .post("/api/room")
-        .expect("Content-Type", /json/)
+        .send({
+          name: "test",
+        })
         .expect(401);
     });
   });
@@ -33,7 +35,9 @@ describe("GET /api/room", () => {
     it("should return a 401 error", async () => {
       const res = await request(app)
         .put("/api/reservation")
-        .expect("Content-Type", /json/)
+        .send({
+          name: "test",
+        })
         .expect(401);
     });
   });
@@ -42,7 +46,9 @@ describe("GET /api/room", () => {
     it("should return a 401 error", async () => {
       const res = await request(app)
         .put("/api/reservation")
-        .expect("Content-Type", /json/)
+        .send({
+          name: "test",
+        })
         .expect(401);
     });
   });

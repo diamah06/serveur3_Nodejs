@@ -1,21 +1,36 @@
 // emailVerificationService.js
 
-class EmailVerificationService {
-    constructor() {
-      this.blacklistedDomains = ['yopmail.com', 'mailinator.com'];
-    }
-  
-    isBlacklisted(email) {
-      const domain = email.split('@')[1];
-      return this.blacklistedDomains.includes(domain);
-    }
-  
-      validateEmail(email) {
-          if (this.isBlacklisted(email)) {
-              throw new Error('Le domaine de l\'email est blacklisté');
-  
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }
-      }
+const nodemailer = require('nodemailer');
+
+class MailerService {
+  constructor() {
+    this.transporter = nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        user: 'votreEmail@gmail.com',
+        pass: 'votreMotDePasse', 
+      },
+    });
   }
-  
-  module.exports = new EmailVerificationService();
+
+  async envoyerEmail(destinataire, sujet, texte, html) {
+    const mailOptions = {
+      from: 'votreEmail@gmail.com',
+      to: destinataire,
+      subject: sujet,
+      text: texte,
+      html: html,
+    };
+
+    try {
+      let info = await this.transporter.sendMail(mailOptions);
+      console.log('Email envoyé: ' + info.response);
+      return info.response;
+    } catch (error) {
+      console.error('Erreur lors de l\'envoi de l\'email:', error);
+      throw error;
+    }
+  }
+}
+
+module.exports = new MailerService();
